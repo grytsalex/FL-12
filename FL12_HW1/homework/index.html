@@ -13,7 +13,7 @@
       <div id="container">
         <div id="content" role="main">
           <!-- TODO: Content goes here -->
-
+          <header>
           <a href="http://www.epam.com/">
             <img src="logo.png" alt="logo.png" />
           </a>
@@ -30,6 +30,7 @@
                 <a href="#"><strong>Registration</strong></a>
                 <hr/>
               </nav>
+            </header>
         <p>Lorem ipsum dolor sit amet, <a href=#>test link</a> adipiscing elit.
           Nullam dignissim convallis est. Quisque aliquam.
           <i> This is emphasized</i>. Donec faucibus. Nunc iaculis suscipit dui. 4<sup>4</sup> = 256. Water is H<sub>3</sub>PO<sub>4</sub>.
@@ -39,10 +40,10 @@
 
           <p>
           Watch out for the abbreviations!
-          Hyper Text Markup Language HTML and
-          Cascading Style Sheets CSS
+          Hyper Text Markup Language <abbr title="Hyper Text Markup Language">HTML</abbr> and
+          Cascading Style Sheets <abbr title="Cascading Style Sheets">CSS</abbr>
           are our tools.
-          JavaScript JS
+          JavaScript <abbr title="JavaScript">JS</abbr>
           is a dynamically typed language.
           auris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus. Praesent mattis, massa quis luctus fermentum. To copy a file type
           COPY
@@ -64,24 +65,53 @@
           <h2><strong>Text formats</strong></h2>
           <h3><strong>Article</strong></h3>
           <h2><strong>Article title</strong></h2>
-          <h4>Article description</h4>
+        <article><h4>Article description</h4></article>
           <h3><strong>Preformatted Text</strong></h3>
 
-          <div id=wp-calendar>
-            <table>
-              <thead></thead>
-            <tbody style="background-color: red;">
-               <td>
-               <p>Text
-                  in a pre element</p>
-                  is displayed in a fixed-width</br>
-                  font, and it preserves</br>
-                  both           spaces and</br>
-                  line breaks</td>
-              
-            </tbody>
-          </table>
-          </div>
+          <pre>   
+Text in a <strong>pre</strong> element
+is displayed in a fixed-width
+font, and it preserves
+both          <strong>spaces</strong> and
+<strong>line breaks</strong>
+          </pre>
+
+          <h3><b>This is code</b></h3>
+           <pre><code>
+.flex {
+  display: flex;
+  justify-content: justify;
+  aliign-items: center;
+}
+           </code></pre>
+
+           <h2>Unordered Wish List</h2>
+           <ul>
+             <li>Iphone 11 pro max</li>
+             <li>Books:
+              <ul>
+             <li>Clean code principles javascript</li>
+             <li>You don't know JS</li>
+             <li>Angular Pro</li>
+             </ul>
+              <li>Headphones</li>
+           </ul>
+
+           <h2>Ordered Task List</h2>
+           <ol>
+             <li>Pay the bills</li>
+             <li>Refuel the bills</li>
+             <li>Finish homework</li>
+             <ol>
+             <li>Create HTML page according to the requirements</li>
+             <li>Upload to the GitHub repository</li>
+            </ol>
+             <li>Enjoy your day</li>
+           </ol>
+
+           <h2>Definition List</h2>
+           
+
 
         </div>
       </div>
