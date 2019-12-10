@@ -3,7 +3,7 @@
     background-color: lightskyblue;
 }
 .tm-banner {
-        background: linear-gradient(45deg, #5bc0de, #f0ad4e);
+        background: linear-gradient(to right, #5bc0de,burlywood);
     }
     
 .tm-banner-inner {
@@ -11,7 +11,7 @@
     }
     
 .tm-banner-inner p {
-        text-shadow: 5px 7px 3px #33333394;
+        text-shadow: 5px 7px 3px #333;
         animation: 3s ease-out 0s move-text;
     }
 div.tm-content-box{
@@ -25,6 +25,45 @@ li.box.box-bg:hover{
     background-color: lightgray;
     color: lightskyblue;
 }
+
+.heading ol li:hover::before {
+    content: '>';
+    font-weight: bold;
+}
+
+.heding .padding-medium h2 {
+    color: lightskyblue;
+    font-weight: 300;
+    text-align: center;
+}
+
+.heding ol li {
+    list-style-type: lower-alpha;
+}
+
+.heaing ol li:nth-child(1)::after,
+.heaing ol li::nth-child(3)::after {
+    content: 'New';
+    color: red;
+    vertical-align: super;
+    font-variant: small-caps;
+    font-size: smaller;
+    font-weight: bold;
+    
+}
+
+.blocks h2 {
+    text-align: left;
+}
+
+.block p:nth-child(3) {
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    font-style: italic;
+}
+
+
+
 
 
 
